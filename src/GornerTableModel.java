@@ -46,7 +46,6 @@ public class GornerTableModel extends AbstractTableModel {
 // многочлена
             Double result = 0.0;
 // Вычисление значения в точке по схеме Горнера.
-// Вспомнить 1-ый курс и реализовать
                for(int j = 0; j < coefficients.length; j++)
                {
                    result = result*x + coefficients[j];
